@@ -33,5 +33,11 @@ do local function run(msg, matches) if is_momod(msg) and matches[1]== "he2" then
 🔘 /lk   ::   امر القفل 
 ☑️ /nlk   ::   امر الفتح 
 ✵•┈••●◆💈◆●••┈•✵
-- DEV - @IQ_ABS   📌
-- Channel - @DEV_PROX ]] end if not is_momod(msg) then return "للمشرفين فقط ⛔️😴✋🏿" end end return { description = "Help list", usage = "Help list", patterns = { "[#!/](he2)" }, run = run } end 
+- DEV - @abo_shosho98 📌
+- Channel - @aboaloshbot
+
+
+اطلب البوت من كروب الدعم ://
+
+
+https://telegram.me/joinchat/CgJAOkDLhldXGB60lzf2yw]] end if not is_momod(msg) then return "للمشرفين فقط ⛔️😴✋🏿" end end return { description = "Help list", usage = "Help list", patterns = { "[#!/](he2)" }, run = run } end 
