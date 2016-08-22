@@ -1,10 +1,10 @@
 --[[ 
 $ :) 
--- - ( #MASCO_ماسكو ) - -- 
+-- - ( #abo_shosho98 ابو شهوده) - -- 
 $ :) 
--- - ( @IQ_ABS ) - -- 
+-- - ( @aboaloshbot) - -- 
 $ :) 
---Channel-( @DEV_PROX )-- 
+--Channel-( @abo_shosho98)-- 
 $ :) 
 ]]-- 
 local function addword(msg, name) 
