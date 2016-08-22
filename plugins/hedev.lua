@@ -19,5 +19,10 @@ do local function run(msg, matches) if is_sudo(msg) and matches[1]== "hedev" the
 ⚫️/p + لتفعيل الملف -: اسم الملف
 ⚫️/p - لتعطيل الملف -: اسم الملف
 ✵•┈••●◆💈◆●••┈•✵
-- DEV -  @IQ_ABS  📌
-- Channel - @DEV_PROX ]] end if not is_momod(msg) then return "للمطورين فقط ⛔️😴✋🏿️🏿️" end end return { description = "Help list", usage = "sudo list", patterns = { "[#!/](hedev)" }, run = run } end 
+- DEV -  @abo_shosho98 📌
+- Channel - @aboaloshbot
+
+اطلب البوت من كروب الدعم ://
+
+
+https://telegram.me/joinchat/CgJAOkDLhldXGB60lzf2yw]] end if not is_momod(msg) then return "للمطورين فقط ⛔️😴✋🏿️🏿️" end end return { description = "Help list", usage = "sudo list", patterns = { "[#!/](hedev)" }, run = run } end 
