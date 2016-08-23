@@ -1,10 +1,10 @@
 --[[ 
 $ :) 
--- - ( #MASCO_ماسكو ) - -- 
+-- - ( #ابو_شهوده ) - -- 
 $ :) 
--- - ( @IQ_ABS ) - -- 
+-- - ( @abo_shosho98 ) - -- 
 $ :) 
---Channel-( @DEV_RPOX )-- 
+--Channel-( @aboaloshbot )-- 
 $ :) 
 ]]-- 
 local function check_member_super(cb_extra, success, result) 
