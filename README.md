@@ -15,10 +15,10 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 sudo apt-get upgrade
 
 #4
-git clone https://github.com/iqabs/DevProx.git
+git clone https://github.com/iraq2296/abo-shosho98.git
 
 #5
-cd DevProx
+cd abo-shosho98
 
 #6
 chmod +x launch.sh
