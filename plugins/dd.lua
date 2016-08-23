@@ -1,9 +1,7 @@
 --[[
--- - ( #ابو_شهوده ) - -- 
-$ :) 
--- - ( @abo_shosho98 ) - -- 
-$ :) 
---Channel-( @aboaloshbot )-- ]]
+جميع الحقوق محفوظه للمطور حموشي: @MEDO_REAL
+تابع قناتي : @API_CLI
+--]]
 do
     
 local function run(msg,matches)
