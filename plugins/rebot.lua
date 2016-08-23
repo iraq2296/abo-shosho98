@@ -6,11 +6,11 @@ if ( msg.text ) then
 
   if ( msg.to.type == "user" ) then 
 
-     return "- أهـلآ وسـهلا بـك في البوت ⇣\n- Welcome to BOT ⇣\n- لـمزيـد مـن المعلومات راسـل المطور ⇣\n- For more information Contact Developer ⇣\n- DEV - @IQ_ABS ♋️✴️♋️\n- Channel  -  @DEV_PROX" 
+     return "- أهـلآ وسـهلا بـك في البوت ⇣\n- Welcome to BOT ⇣\n- لـمزيـد مـن المعلومات راسـل المطور ⇣\n- For more information Contact Da aboshosho98 \n- DEV - @Iabo_shosho98 ️✴️♋️\n- Channel   - aboaloshbot" 
   end 
 end 
 
--- DEV @IQ_ABS 
+-- DEV @abo_shosho98 
 
 end 
 
@@ -22,4 +22,4 @@ return {
 } 
 
 end 
--- BY @IQ_ABS 
+-- BY @abo_shosho98
