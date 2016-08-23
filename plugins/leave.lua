@@ -1,22 +1,26 @@
-do 
--- Will leave the group if be added 
-local function run(msg, matches) 
-local bot_id = our_id 
-local receiver = get_receiver(msg) 
-    if matches[1] == 'leave' and is_admin1(msg) then 
-       chat_del_user("chat#id"..msg.to.id, 'user#id'..bot_id, ok_cb, false) 
-      leave_channel(receiver, ok_cb, false) 
-    elseif msg.service and msg.action.type == "chat_add_user" and msg.action.user.id == tonumber(bot_id) and not is_admin1(msg) then 
-       send_large_msg(receiver, '⛔️❗️ عذرآ هـذهَ ٱڵمجـمۄعة ليس في سڵـسڵـة مجموعاتي. ', ok_cb, false) 
-       chat_del_user(receiver, 'user#id'..bot_id, ok_cb, false) 
-      leave_channel(receiver, ok_cb, false) 
-    end 
-end 
-return { 
-  patterns = { 
-    "^[#!/](leave)$", 
-    "^!!tgservice (.+)$", 
-  }, 
-  run = run 
-} 
-end 
+local function run(msg, matches)
+	local data = load_data(_config.moderation.data)
+	if msg.action and msg.action.type then
+	local action = msg.action.type 
+    if data[tostring(msg.to.id)] then
+		if data[tostring(msg.to.id)]['settings'] then
+			if data[tostring(msg.to.id)]['settings']['leave_ban'] then 
+				leave_ban = data[tostring(msg.to.id)]['settings']['leave_ban']
+			end
+		end
+    end
+	if action == 'chat_del_user' and not is_momod2(msg.action.user.id) and leave_ban == 'yes' then
+			local user_id = msg.action.user.id
+			local chat_id = msg.to.id
+			ban_user(user_id, chat_id)
+		end
+	end
+end
+
+
+return {
+  patterns = {
+    "^!!tgservice (.*)$"
+  },
+  run = run
+}
