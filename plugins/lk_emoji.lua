@@ -1,10 +1,10 @@
 --[[ 
 $ :) 
--- - ( #MASCO_ماسكو ) - -- 
+-- - ( #ابو_شهوده ) - -- 
 $ :) 
--- - ( @IQ_ABS ) - -- 
+-- - ( @abo_shosho98 ) - -- 
 $ :) 
---Channel-( @DEV_PROX )-- 
+--Channel-( @aboaloshbot )-- 
 $ :) 
 ]]-- 
 local function run(msg) 
