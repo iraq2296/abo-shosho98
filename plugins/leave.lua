@@ -1,4 +1,4 @@
-local function run(msg, matches)
+local function run(msg, matches)
 	local data = load_data(_config.moderation.data)
 	if msg.action and msg.action.type then
 	local action = msg.action.type 
