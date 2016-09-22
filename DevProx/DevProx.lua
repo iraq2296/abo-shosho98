@@ -270,7 +270,7 @@ function create_config( )
     "run1",
     "redis"
     },
-    sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 273709968,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[🚏- اهلا بك عزيزي WeLcOmE
 سورس ديف بروكس ( DevProx )
